@@ -7,6 +7,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'tnhmar/demo'
         DOCKER_CREDENTIALS_ID = 'docker-hub-credentials-id' // Jenkins credentials ID
+        DOCKER_HOST = 'tcp://docker:2376'
     }
 
     stages {
